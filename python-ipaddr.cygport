@@ -1,0 +1,15 @@
+inherit python2-distutils
+
+NAME="python-ipaddr"
+VERSION=2.1.11
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python IP address manipulation module"
+DESCRIPTION="ipaddr.py is a library for working with IP addresses, both IPv4
+and IPv6. It was developed by Google for internal use, and is now open source."
+
+ARCH=noarch
+
+PKG_NAMES="python2-ipaddr"
+python2_ipaddr_OBSOLETES=${NAME}
+python2_ipaddr_CONTENTS="*"
